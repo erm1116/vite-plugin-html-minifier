@@ -1,0 +1,17 @@
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+**/.git
+**/.svn
+**/.hg
+
+# Package manager files
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+.github/workflows/*.yml
+docs/
+
+dist

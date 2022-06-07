@@ -1,0 +1,14 @@
+{
+  "include": ["src"],
+  "exclude": ["**/__tests__"],
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2020",
+    "moduleResolution": "Node",
+    "strict": true,
+    "declaration": true,
+    "sourceMap": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true
+  }
+}
