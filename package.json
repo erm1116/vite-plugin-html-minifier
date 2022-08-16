@@ -1,19 +1,47 @@
 {
   "name": "vite-plugin-html-minifier",
   "version": "1.0.0",
-  "description": "HTML minifier for Vite",
+  "description": "HTML minifier plugin for Vite",
   "author": "erm1116",
   "license": "MIT",
+  "homepage": "https://github.com/erm1116/vite-plugin-html-minifier",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erm1116/vite-plugin-html-minifier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/erm1116/vite-plugin-html-minifier/issues"
+  },
+  "keywords": [
+    "vite-plugin",
+    "html",
+    "minify"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prepare": "husky install",
-    "build": "tsup src/index.ts --format cjs,esm --dts --minify --clean",
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
     "test": "vitest",
     "lint": "run-p -l -c --aggregate-output lint:*",
     "lint:eslint": "eslint --cache .",
     "lint:prettier": "prettier --check --cache .",
     "fix": "run-s fix:prettier fix:eslint",
     "fix:eslint": "pnpm run lint:eslint -- --fix",
-    "fix:prettier": "pnpm run lint:prettier -- --write"
+    "fix:prettier": "pnpm run lint:prettier -- --write",
+    "prepublishOnly": "pnpm run build",
+    "release": "npx bumpp --push --tag --commit && pnpm publish"
   },
   "dependencies": {
     "html-minifier-terser": "^6.1.0"
@@ -37,7 +65,7 @@
     "vitest": "^0.21.0"
   },
   "peerDependencies": {
-    "vite": "^3.0.4"
+    "vite": "^3.0.0"
   },
   "lint-staged": {
     "*": [
