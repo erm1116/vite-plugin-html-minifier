@@ -8,6 +8,8 @@ function htmlMinifier(options: UserOptions = {}): Plugin {
 
   return {
     name: 'vite:html-minifier',
+    enforce: 'post',
+    apply: 'build',
     async transformIndexHtml(html, { filename }) {
       if (!filterFileName(filename, filter)) return
 
