@@ -47,22 +47,22 @@
     "html-minifier-terser": "^7.2.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.2.2",
-    "@commitlint/config-conventional": "^19.2.2",
-    "@types/html-minifier-terser": "^7.0.2",
-    "@types/node": "^20.12.7",
+    "@commitlint/cli": "19.2.2",
+    "@commitlint/config-conventional": "19.2.2",
+    "@types/html-minifier-terser": "7.0.2",
+    "@types/node": "20.12.7",
     "@typescript-eslint/eslint-plugin": "^7.7.0",
     "@typescript-eslint/parser": "^7.7.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
-    "husky": "^9.0.11",
-    "lint-staged": "^15.2.2",
-    "npm-run-all": "^4.1.5",
+    "husky": "9.0.11",
+    "lint-staged": "15.2.2",
+    "npm-run-all": "4.1.5",
     "prettier": "^3.2.5",
-    "tsup": "^8.0.2",
-    "typescript": "^5.4.5",
-    "vite": "^5.2.10",
-    "vitest": "^1.5.0"
+    "tsup": "8.0.2",
+    "typescript": "5.4.5",
+    "vite": "5.2.10",
+    "vitest": "1.5.0"
   },
   "peerDependencies": {
     "vite": "^3.0.0 || ^4.0.0 || ^5.0.0"
