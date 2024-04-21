@@ -31,7 +31,7 @@
     "dist"
   ],
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "build": "tsup src/index.ts --format cjs,esm --dts --clean",
     "test": "vitest",
     "lint": "run-p -l -c --aggregate-output lint:*",
@@ -44,25 +44,25 @@
     "release": "npx bumpp --push --tag --commit && pnpm publish"
   },
   "dependencies": {
-    "html-minifier-terser": "^7.1.0"
+    "html-minifier-terser": "^7.2.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.2",
-    "@commitlint/config-conventional": "^17.4.2",
-    "@types/html-minifier-terser": "^7.0.0",
-    "@types/node": "^18.13.0",
-    "@typescript-eslint/eslint-plugin": "^5.51.0",
-    "@typescript-eslint/parser": "^5.51.0",
-    "eslint": "^8.34.0",
-    "eslint-config-prettier": "^8.6.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^13.1.1",
+    "@commitlint/cli": "^19.2.2",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@types/html-minifier-terser": "^7.0.2",
+    "@types/node": "^20.12.7",
+    "@typescript-eslint/eslint-plugin": "^7.7.0",
+    "@typescript-eslint/parser": "^7.7.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.8.4",
-    "tsup": "^6.6.0",
-    "typescript": "^4.9.5",
-    "vite": "^4.1.1",
-    "vitest": "^0.28.4"
+    "prettier": "^3.2.5",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10",
+    "vitest": "^1.5.0"
   },
   "peerDependencies": {
     "vite": "^3.0.0 || ^4.0.0"
