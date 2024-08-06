@@ -12,9 +12,9 @@
   "minimumReleaseAge": "3 days",
   "packageRules": [
     {
-      "matchPackagePatterns": ["*"],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
+      "automerge": true,
+      "matchPackageNames": ["*"]
     },
     {
       "groupName": "linters",
