@@ -49,8 +49,8 @@ importers:
         specifier: 3.3.2
         version: 3.3.2
       tsup:
-        specifier: 8.1.2
-        version: 8.1.2(jiti@1.21.0)(postcss@8.4.39)(typescript@5.5.4)(yaml@2.5.0)
+        specifier: 8.2.4
+        version: 8.2.4(jiti@1.21.0)(postcss@8.4.39)(typescript@5.5.4)(yaml@2.5.0)
       typescript:
         specifier: 5.5.4
         version: 5.5.4
@@ -928,15 +928,6 @@ packages:
 
   debug@4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-
-  debug@4.3.5:
-    resolution: {integrity: sha512-pt0bNEmneDIvdL1Xsd9oDQ/wrQRkXDT4AUWlNZNPKvW5x/jyO9VFXkJUP07vQ2upmw5PlaITaPKc31jK13V+jg==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -1896,8 +1887,8 @@ packages:
   tslib@2.4.0:
     resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
 
-  tsup@8.1.2:
-    resolution: {integrity: sha512-Gzw/PXSX/z0aYMNmkcI54bKKFVFJQbLne+EqTJZeQ3lNT3QpumjtMU4rl+ZwTTp8oRF3ahMbEAxT2sZPJLFSrg==}
+  tsup@8.2.4:
+    resolution: {integrity: sha512-akpCPePnBnC/CXgRrcy72ZSntgIEUa1jN0oJbbvpALWKNOz1B7aM+UVDWGRGIO/T/PZugAESWDJUAb5FD48o8Q==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -2832,10 +2823,6 @@ snapshots:
   dargs@8.1.0: {}
 
   debug@4.3.4:
-    dependencies:
-      ms: 2.1.2
-
-  debug@4.3.5:
     dependencies:
       ms: 2.1.2
 
@@ -3791,17 +3778,18 @@ snapshots:
 
   tslib@2.4.0: {}
 
-  tsup@8.1.2(jiti@1.21.0)(postcss@8.4.39)(typescript@5.5.4)(yaml@2.5.0):
+  tsup@8.2.4(jiti@1.21.0)(postcss@8.4.39)(typescript@5.5.4)(yaml@2.5.0):
     dependencies:
       bundle-require: 5.0.0(esbuild@0.23.0)
       cac: 6.7.14
       chokidar: 3.6.0
       consola: 3.2.3
-      debug: 4.3.5
+      debug: 4.3.6
       esbuild: 0.23.0
       execa: 5.1.1
       globby: 11.1.0
       joycon: 3.1.1
+      picocolors: 1.0.1
       postcss-load-config: 6.0.1(jiti@1.21.0)(postcss@8.4.39)(yaml@2.5.0)
       resolve-from: 5.0.0
       rollup: 4.19.0
