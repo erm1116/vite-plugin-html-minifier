@@ -59,7 +59,7 @@
     "lint-staged": "15.2.10",
     "npm-run-all2": "6.2.3",
     "prettier": "3.3.2",
-    "tsup": "8.2.4",
+    "tsup": "8.3.0",
     "typescript": "5.5.4",
     "vite": "5.4.6",
     "vitest": "1.6.0"
