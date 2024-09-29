@@ -14,7 +14,7 @@ importers:
     devDependencies:
       '@commitlint/cli':
         specifier: 19.4.1
-        version: 19.4.1(@types/node@20.16.5)(typescript@5.5.4)
+        version: 19.4.1(@types/node@20.16.9)(typescript@5.5.4)
       '@commitlint/config-conventional':
         specifier: 19.4.1
         version: 19.4.1
@@ -22,8 +22,8 @@ importers:
         specifier: 7.0.2
         version: 7.0.2
       '@types/node':
-        specifier: 20.16.5
-        version: 20.16.5
+        specifier: 20.16.9
+        version: 20.16.9
       '@typescript-eslint/eslint-plugin':
         specifier: 7.14.1
         version: 7.14.1(@typescript-eslint/parser@7.14.1(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4)
@@ -56,10 +56,10 @@ importers:
         version: 5.5.4
       vite:
         specifier: 5.4.6
-        version: 5.4.6(@types/node@20.16.5)(terser@5.16.3)
+        version: 5.4.6(@types/node@20.16.9)(terser@5.16.3)
       vitest:
         specifier: 1.6.0
-        version: 1.6.0(@types/node@20.16.5)(terser@5.16.3)
+        version: 1.6.0(@types/node@20.16.9)(terser@5.16.3)
 
 packages:
 
@@ -693,8 +693,8 @@ packages:
   '@types/html-minifier-terser@7.0.2':
     resolution: {integrity: sha512-mm2HqV22l8lFQh4r2oSsOEVea+m0qqxEmwpc9kC1p/XzmjLWrReR9D/GRs8Pex2NX/imyEH9c5IU/7tMBQCHOA==}
 
-  '@types/node@20.16.5':
-    resolution: {integrity: sha512-VwYCweNo3ERajwy0IUlqqcyZ8/A7Zwa9ZP3MnENWcB11AejO+tLy3pu850goUW2FC/IJMdZUfKpX/yxL1gymCA==}
+  '@types/node@20.16.9':
+    resolution: {integrity: sha512-rkvIVJxsOfBejxK7I0FO5sa2WxFmJCzoDwcd88+fq/CUfynNywTo/1/T6hyFz22CyztsnLS9nVlHOnTI36RH5w==}
 
   '@typescript-eslint/eslint-plugin@7.14.1':
     resolution: {integrity: sha512-aAJd6bIf2vvQRjUG3ZkNXkmBpN+J7Wd0mfQiiVCJMu9Z5GcZZdcc0j8XwN/BM97Fl7e3SkTXODSk4VehUv7CGw==}
@@ -2164,11 +2164,11 @@ snapshots:
       chalk: 2.4.2
       js-tokens: 4.0.0
 
-  '@commitlint/cli@19.4.1(@types/node@20.16.5)(typescript@5.5.4)':
+  '@commitlint/cli@19.4.1(@types/node@20.16.9)(typescript@5.5.4)':
     dependencies:
       '@commitlint/format': 19.3.0
       '@commitlint/lint': 19.4.1
-      '@commitlint/load': 19.4.0(@types/node@20.16.5)(typescript@5.5.4)
+      '@commitlint/load': 19.4.0(@types/node@20.16.9)(typescript@5.5.4)
       '@commitlint/read': 19.4.0
       '@commitlint/types': 19.0.3
       execa: 8.0.1
@@ -2215,7 +2215,7 @@ snapshots:
       '@commitlint/rules': 19.4.1
       '@commitlint/types': 19.0.3
 
-  '@commitlint/load@19.4.0(@types/node@20.16.5)(typescript@5.5.4)':
+  '@commitlint/load@19.4.0(@types/node@20.16.9)(typescript@5.5.4)':
     dependencies:
       '@commitlint/config-validator': 19.0.3
       '@commitlint/execute-rule': 19.0.0
@@ -2223,7 +2223,7 @@ snapshots:
       '@commitlint/types': 19.0.3
       chalk: 5.3.0
       cosmiconfig: 9.0.0(typescript@5.5.4)
-      cosmiconfig-typescript-loader: 5.0.0(@types/node@20.16.5)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4)
+      cosmiconfig-typescript-loader: 5.0.0(@types/node@20.16.9)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -2616,13 +2616,13 @@ snapshots:
 
   '@types/conventional-commits-parser@5.0.0':
     dependencies:
-      '@types/node': 20.16.5
+      '@types/node': 20.16.9
 
   '@types/estree@1.0.5': {}
 
   '@types/html-minifier-terser@7.0.2': {}
 
-  '@types/node@20.16.5':
+  '@types/node@20.16.9':
     dependencies:
       undici-types: 6.19.8
 
@@ -2941,9 +2941,9 @@ snapshots:
       meow: 12.1.1
       split2: 4.2.0
 
-  cosmiconfig-typescript-loader@5.0.0(@types/node@20.16.5)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4):
+  cosmiconfig-typescript-loader@5.0.0(@types/node@20.16.9)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4):
     dependencies:
-      '@types/node': 20.16.5
+      '@types/node': 20.16.9
       cosmiconfig: 9.0.0(typescript@5.5.4)
       jiti: 1.21.0
       typescript: 5.5.4
@@ -3997,13 +3997,13 @@ snapshots:
     dependencies:
       punycode: 2.1.1
 
-  vite-node@1.6.0(@types/node@20.16.5)(terser@5.16.3):
+  vite-node@1.6.0(@types/node@20.16.9)(terser@5.16.3):
     dependencies:
       cac: 6.7.14
       debug: 4.3.6
       pathe: 1.1.2
       picocolors: 1.0.0
-      vite: 5.4.6(@types/node@20.16.5)(terser@5.16.3)
+      vite: 5.4.6(@types/node@20.16.9)(terser@5.16.3)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -4015,17 +4015,17 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.4.6(@types/node@20.16.5)(terser@5.16.3):
+  vite@5.4.6(@types/node@20.16.9)(terser@5.16.3):
     dependencies:
       esbuild: 0.21.4
       postcss: 8.4.47
       rollup: 4.21.2
     optionalDependencies:
-      '@types/node': 20.16.5
+      '@types/node': 20.16.9
       fsevents: 2.3.3
       terser: 5.16.3
 
-  vitest@1.6.0(@types/node@20.16.5)(terser@5.16.3):
+  vitest@1.6.0(@types/node@20.16.9)(terser@5.16.3):
     dependencies:
       '@vitest/expect': 1.6.0
       '@vitest/runner': 1.6.0
@@ -4044,11 +4044,11 @@ snapshots:
       strip-literal: 2.1.0
       tinybench: 2.7.0
       tinypool: 0.8.4
-      vite: 5.4.6(@types/node@20.16.5)(terser@5.16.3)
-      vite-node: 1.6.0(@types/node@20.16.5)(terser@5.16.3)
+      vite: 5.4.6(@types/node@20.16.9)(terser@5.16.3)
+      vite-node: 1.6.0(@types/node@20.16.9)(terser@5.16.3)
       why-is-node-running: 2.2.2
     optionalDependencies:
-      '@types/node': 20.16.5
+      '@types/node': 20.16.9
     transitivePeerDependencies:
       - less
       - lightningcss
