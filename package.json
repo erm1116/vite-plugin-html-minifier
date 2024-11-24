@@ -47,8 +47,8 @@
     "html-minifier-terser": "^7.2.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.5.0",
-    "@commitlint/config-conventional": "19.5.0",
+    "@commitlint/cli": "19.6.0",
+    "@commitlint/config-conventional": "19.6.0",
     "@types/html-minifier-terser": "7.0.2",
     "@types/node": "20.17.6",
     "@typescript-eslint/eslint-plugin": "7.18.0",
