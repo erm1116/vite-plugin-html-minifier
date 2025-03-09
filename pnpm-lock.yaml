@@ -14,7 +14,7 @@ importers:
     devDependencies:
       '@commitlint/cli':
         specifier: 19.6.1
-        version: 19.6.1(@types/node@20.17.19)(typescript@5.7.3)
+        version: 19.6.1(@types/node@20.17.23)(typescript@5.7.3)
       '@commitlint/config-conventional':
         specifier: 19.6.0
         version: 19.6.0
@@ -22,8 +22,8 @@ importers:
         specifier: 7.0.2
         version: 7.0.2
       '@types/node':
-        specifier: 20.17.19
-        version: 20.17.19
+        specifier: 20.17.23
+        version: 20.17.23
       '@typescript-eslint/eslint-plugin':
         specifier: 7.18.0
         version: 7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.7.3))(eslint@8.57.1)(typescript@5.7.3)
@@ -56,10 +56,10 @@ importers:
         version: 5.7.3
       vite:
         specifier: 5.4.14
-        version: 5.4.14(@types/node@20.17.19)(terser@5.16.3)
+        version: 5.4.14(@types/node@20.17.23)(terser@5.16.3)
       vitest:
         specifier: 3.0.7
-        version: 3.0.7(@types/node@20.17.19)(terser@5.16.3)
+        version: 3.0.7(@types/node@20.17.23)(terser@5.16.3)
 
 packages:
 
@@ -611,8 +611,8 @@ packages:
   '@types/html-minifier-terser@7.0.2':
     resolution: {integrity: sha512-mm2HqV22l8lFQh4r2oSsOEVea+m0qqxEmwpc9kC1p/XzmjLWrReR9D/GRs8Pex2NX/imyEH9c5IU/7tMBQCHOA==}
 
-  '@types/node@20.17.19':
-    resolution: {integrity: sha512-LEwC7o1ifqg/6r2gn9Dns0f1rhK+fPFDoMiceTJ6kWmVk6bgXBI/9IOWfVan4WiAavK9pIVWdX0/e3J+eEUh5A==}
+  '@types/node@20.17.23':
+    resolution: {integrity: sha512-8PCGZ1ZJbEZuYNTMqywO+Sj4vSKjSjT6Ua+6RFOYlEvIvKQABPtrNkoVSLSKDb4obYcMhspVKmsw8Cm10NFRUg==}
 
   '@typescript-eslint/eslint-plugin@7.18.0':
     resolution: {integrity: sha512-94EQTWZ40mzBc42ATNIBimBEDltSJ9RQHCC8vc/PDbxi4k8dVwUAv4o98dk50M1zB+JGFxp43FP7f8+FP8R6Sw==}
@@ -2035,11 +2035,11 @@ snapshots:
       chalk: 2.4.2
       js-tokens: 4.0.0
 
-  '@commitlint/cli@19.6.1(@types/node@20.17.19)(typescript@5.7.3)':
+  '@commitlint/cli@19.6.1(@types/node@20.17.23)(typescript@5.7.3)':
     dependencies:
       '@commitlint/format': 19.5.0
       '@commitlint/lint': 19.6.0
-      '@commitlint/load': 19.6.1(@types/node@20.17.19)(typescript@5.7.3)
+      '@commitlint/load': 19.6.1(@types/node@20.17.23)(typescript@5.7.3)
       '@commitlint/read': 19.5.0
       '@commitlint/types': 19.5.0
       tinyexec: 0.3.1
@@ -2086,7 +2086,7 @@ snapshots:
       '@commitlint/rules': 19.6.0
       '@commitlint/types': 19.5.0
 
-  '@commitlint/load@19.6.1(@types/node@20.17.19)(typescript@5.7.3)':
+  '@commitlint/load@19.6.1(@types/node@20.17.23)(typescript@5.7.3)':
     dependencies:
       '@commitlint/config-validator': 19.5.0
       '@commitlint/execute-rule': 19.5.0
@@ -2094,7 +2094,7 @@ snapshots:
       '@commitlint/types': 19.5.0
       chalk: 5.3.0
       cosmiconfig: 9.0.0(typescript@5.7.3)
-      cosmiconfig-typescript-loader: 6.1.0(@types/node@20.17.19)(cosmiconfig@9.0.0(typescript@5.7.3))(typescript@5.7.3)
+      cosmiconfig-typescript-loader: 6.1.0(@types/node@20.17.23)(cosmiconfig@9.0.0(typescript@5.7.3))(typescript@5.7.3)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -2432,13 +2432,13 @@ snapshots:
 
   '@types/conventional-commits-parser@5.0.0':
     dependencies:
-      '@types/node': 20.17.19
+      '@types/node': 20.17.23
 
   '@types/estree@1.0.6': {}
 
   '@types/html-minifier-terser@7.0.2': {}
 
-  '@types/node@20.17.19':
+  '@types/node@20.17.23':
     dependencies:
       undici-types: 6.19.8
 
@@ -2532,13 +2532,13 @@ snapshots:
       chai: 5.2.0
       tinyrainbow: 2.0.0
 
-  '@vitest/mocker@3.0.7(vite@5.4.14(@types/node@20.17.19)(terser@5.16.3))':
+  '@vitest/mocker@3.0.7(vite@5.4.14(@types/node@20.17.23)(terser@5.16.3))':
     dependencies:
       '@vitest/spy': 3.0.7
       estree-walker: 3.0.3
       magic-string: 0.30.17
     optionalDependencies:
-      vite: 5.4.14(@types/node@20.17.19)(terser@5.16.3)
+      vite: 5.4.14(@types/node@20.17.23)(terser@5.16.3)
 
   '@vitest/pretty-format@3.0.7':
     dependencies:
@@ -2745,9 +2745,9 @@ snapshots:
       meow: 12.1.1
       split2: 4.2.0
 
-  cosmiconfig-typescript-loader@6.1.0(@types/node@20.17.19)(cosmiconfig@9.0.0(typescript@5.7.3))(typescript@5.7.3):
+  cosmiconfig-typescript-loader@6.1.0(@types/node@20.17.23)(cosmiconfig@9.0.0(typescript@5.7.3))(typescript@5.7.3):
     dependencies:
-      '@types/node': 20.17.19
+      '@types/node': 20.17.23
       cosmiconfig: 9.0.0(typescript@5.7.3)
       jiti: 2.4.2
       typescript: 5.7.3
@@ -3714,13 +3714,13 @@ snapshots:
     dependencies:
       punycode: 2.1.1
 
-  vite-node@3.0.7(@types/node@20.17.19)(terser@5.16.3):
+  vite-node@3.0.7(@types/node@20.17.23)(terser@5.16.3):
     dependencies:
       cac: 6.7.14
       debug: 4.4.0
       es-module-lexer: 1.6.0
       pathe: 2.0.3
-      vite: 5.4.14(@types/node@20.17.19)(terser@5.16.3)
+      vite: 5.4.14(@types/node@20.17.23)(terser@5.16.3)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -3732,20 +3732,20 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.4.14(@types/node@20.17.19)(terser@5.16.3):
+  vite@5.4.14(@types/node@20.17.23)(terser@5.16.3):
     dependencies:
       esbuild: 0.21.4
       postcss: 8.4.47
       rollup: 4.24.3
     optionalDependencies:
-      '@types/node': 20.17.19
+      '@types/node': 20.17.23
       fsevents: 2.3.3
       terser: 5.16.3
 
-  vitest@3.0.7(@types/node@20.17.19)(terser@5.16.3):
+  vitest@3.0.7(@types/node@20.17.23)(terser@5.16.3):
     dependencies:
       '@vitest/expect': 3.0.7
-      '@vitest/mocker': 3.0.7(vite@5.4.14(@types/node@20.17.19)(terser@5.16.3))
+      '@vitest/mocker': 3.0.7(vite@5.4.14(@types/node@20.17.23)(terser@5.16.3))
       '@vitest/pretty-format': 3.0.7
       '@vitest/runner': 3.0.7
       '@vitest/snapshot': 3.0.7
@@ -3761,11 +3761,11 @@ snapshots:
       tinyexec: 0.3.2
       tinypool: 1.0.2
       tinyrainbow: 2.0.0
-      vite: 5.4.14(@types/node@20.17.19)(terser@5.16.3)
-      vite-node: 3.0.7(@types/node@20.17.19)(terser@5.16.3)
+      vite: 5.4.14(@types/node@20.17.23)(terser@5.16.3)
+      vite-node: 3.0.7(@types/node@20.17.23)(terser@5.16.3)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 20.17.19
+      '@types/node': 20.17.23
     transitivePeerDependencies:
       - less
       - lightningcss
