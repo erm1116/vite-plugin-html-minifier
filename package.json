@@ -61,7 +61,7 @@
     "prettier": "3.8.1",
     "tsup": "8.5.1",
     "typescript": "5.9.3",
-    "vite": "5.4.14",
+    "vite": "7.3.1",
     "vitest": "3.2.4"
   },
   "peerDependencies": {
