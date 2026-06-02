@@ -1,4 +1,4 @@
-import { minify as minifyFn } from 'html-minifier-terser'
+import { minify as minifyFn } from 'html-minifier-next'
 import { MinifyOptions } from './types'
 
 function getOptions(minify: boolean | MinifyOptions): MinifyOptions {

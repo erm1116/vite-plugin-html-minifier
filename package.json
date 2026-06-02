@@ -44,12 +44,11 @@
     "release": "npx bumpp --push --tag --commit && pnpm publish"
   },
   "dependencies": {
-    "html-minifier-terser": "^7.2.0"
+    "html-minifier-next": "^6.2.8"
   },
   "devDependencies": {
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
-    "@types/html-minifier-terser": "7.0.2",
     "@types/node": "20.17.24",
     "@typescript-eslint/eslint-plugin": "7.18.0",
     "@typescript-eslint/parser": "7.18.0",
