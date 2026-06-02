@@ -49,7 +49,7 @@ export default defineConfig({
   }
   ```
 
-  `MinifierOptions` is same as [html-minifier-terser options](https://github.com/terser/html-minifier-terser#options-quick-reference).
+  `MinifierOptions` is same as [html-minifier-next options](https://github.com/j9t/html-minifier-next#options-quick-reference).
 
 ### `filter`
 
